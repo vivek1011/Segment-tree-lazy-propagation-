@@ -6,6 +6,11 @@ lazy[index] - array for updating the values.
 tree[index] - array for finding the sum of elements in a particular range.
 Basic technique used - update the array elements range when they are required to be updated 
 					   till then keep hold the sum which is to be updated in that range .
+qs - query starting
+qe - query ending
+ss - segment starting
+se - segment ending
+2*index+1 and 2*index+2 as childs and index as their parent.
 */
 #include<bits/stdc++.h>
 using namespace std;
