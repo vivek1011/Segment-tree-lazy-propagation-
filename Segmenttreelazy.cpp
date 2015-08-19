@@ -14,6 +14,7 @@ se - segment ending
 */
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long 
 #define S(x) scanf("%d",&x)
 #define fl(i , a, b) for(i = a; i<b; i++)
 #define MAX 100010
